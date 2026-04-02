@@ -1,0 +1,220 @@
+{% extends "base.html" %}
+
+{% block title %}Admin Dashboard - Restaurant Review System{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="page-header">
+        <h1>Admin Dashboard 📊</h1>
+        <p>System Overview & Analytics</p>
+    </div>
+
+    <!-- Key Metrics -->
+    <div class="metrics-grid">
+        <div class="metric-card">
+            <div class="metric-icon">📝</div>
+            <div class="metric-info">
+                <div class="metric-value">{{ total_reviews }}</div>
+                <div class="metric-label">Total Reviews</div>
+            </div>
+        </div>
+        
+        <div class="metric-card">
+            <div class="metric-icon">🏪</div>
+            <div class="metric-info">
+                <div class="metric-value">{{ total_restaurants }}</div>
+                <div class="metric-label">Restaurants</div>
+            </div>
+        </div>
+        
+        <div class="metric-card">
+            <div class="metric-icon">👥</div>
+            <div class="metric-info">
+                <div class="metric-value">{{ total_users }}</div>
+                <div class="metric-label">Active Users</div>
+            </div>
+        </div>
+        
+        <div class="metric-card">
+            <div class="metric-icon">⭐</div>
+            <div class="metric-info">
+                <div class="metric-value">{{ analytics.avg_rating }}</div>
+                <div class="metric-label">Avg Rating</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sentiment Overview -->
+    <div class="admin-section">
+        <h2>Overall Sentiment Distribution</h2>
+        <div class="sentiment-overview">
+            <div class="sentiment-chart">
+                <div class="pie-chart">
+                    {% set total = sentiment_dist|length %}
+                    {% for sentiment in sentiment_dist %}
+                    <div class="pie-segment pie-{{ sentiment.sentiment }}" 
+                         style="--percentage: {{ (sentiment.count / total_reviews * 100)|round }}%">
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            
+            <div class="sentiment-stats">
+                {% for sentiment in sentiment_dist %}
+                <div class="sentiment-stat">
+                    <div class="sentiment-icon">
+                        {% if sentiment.sentiment == 'positive' %}😊
+                        {% elif sentiment.sentiment == 'negative' %}😞
+                        {% else %}😐{% endif %}
+                    </div>
+                    <div class="sentiment-details">
+                        <strong>{{ sentiment.sentiment|capitalize }}</strong>
+                        <span class="sentiment-percentage">
+                            {{ (sentiment.count / total_reviews * 100)|round(1) }}%
+                        </span>
+                        <span class="sentiment-total">({{ sentiment.count }} reviews)</span>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <!-- Rating Distribution -->
+    <div class="admin-section">
+        <h2>Rating Distribution</h2>
+        <div class="rating-chart">
+            {% set max_count = analytics.rating_distribution.values()|max %}
+            {% for rating in [5, 4, 3, 2, 1] %}
+            <div class="rating-row">
+                <span class="rating-label">{{ rating }} ⭐</span>
+                <div class="rating-bar-container">
+                    <div class="rating-bar" 
+                         style="width: {{ (analytics.rating_distribution[rating] / max_count * 100)|round if max_count > 0 else 0 }}%">
+                    </div>
+                </div>
+                <span class="rating-count">{{ analytics.rating_distribution[rating] }}</span>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Top Keywords -->
+    <div class="admin-section">
+        <h2>Most Common Keywords</h2>
+        <div class="keywords-cloud">
+            {% for keyword in analytics.top_keywords %}
+            <span class="keyword-bubble" style="font-size: {{ 12 + (keyword.count / 2)|int }}px">
+                {{ keyword.word }} ({{ keyword.count }})
+            </span>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Top & Worst Restaurants -->
+    <div class="restaurants-comparison">
+        <div class="admin-section">
+            <h2>🏆 Top Rated Restaurants</h2>
+            <div class="restaurant-rankings">
+                {% for restaurant in top_restaurants %}
+                <div class="ranking-item ranking-top">
+                    <div class="ranking-position">{{ loop.index }}</div>
+                    <div class="ranking-info">
+                        <strong>{{ restaurant.name }}</strong>
+                        <div class="ranking-stats">
+                            <span>⭐ {{ restaurant.avg_rating|round(2) }}</span>
+                            <span>📝 {{ restaurant.review_count }} reviews</span>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="admin-section">
+            <h2>⚠️ Needs Improvement</h2>
+            <div class="restaurant-rankings">
+                {% for restaurant in worst_restaurants %}
+                <div class="ranking-item ranking-bottom">
+                    <div class="ranking-position">{{ loop.index }}</div>
+                    <div class="ranking-info">
+                        <strong>{{ restaurant.name }}</strong>
+                        <div class="ranking-stats">
+                            <span>⭐ {{ restaurant.avg_rating|round(2) }}</span>
+                            <span>📝 {{ restaurant.review_count }} reviews</span>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <!-- User Engagement -->
+    {% if analytics.user_engagement %}
+    <div class="admin-section">
+        <h2>User Engagement Metrics</h2>
+        <div class="engagement-grid">
+            <div class="engagement-card">
+                <div class="engagement-value">{{ analytics.user_engagement.total_users }}</div>
+                <div class="engagement-label">Total Users</div>
+            </div>
+            <div class="engagement-card">
+                <div class="engagement-value">{{ analytics.user_engagement.avg_reviews_per_user }}</div>
+                <div class="engagement-label">Avg Reviews/User</div>
+            </div>
+            <div class="engagement-card">
+                <div class="engagement-value">{{ analytics.user_engagement.max_reviews_by_user }}</div>
+                <div class="engagement-label">Most Reviews by One User</div>
+            </div>
+            <div class="engagement-card">
+                <div class="engagement-value">{{ analytics.user_engagement.active_users }}</div>
+                <div class="engagement-label">Active Users (3+ reviews)</div>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- Sentiment Breakdown Details -->
+    <div class="admin-section">
+        <h2>Detailed Sentiment Analysis</h2>
+        <div class="sentiment-details-grid">
+            <div class="detail-card positive">
+                <h3>😊 Positive Reviews</h3>
+                <div class="detail-stats">
+                    <div class="detail-percentage">
+                        {{ analytics.sentiment_breakdown.positive }}%
+                    </div>
+                    <div class="detail-count">
+                        {{ analytics.sentiment_breakdown.positive_count }} reviews
+                    </div>
+                </div>
+            </div>
+            
+            <div class="detail-card neutral">
+                <h3>😐 Neutral Reviews</h3>
+                <div class="detail-stats">
+                    <div class="detail-percentage">
+                        {{ analytics.sentiment_breakdown.neutral }}%
+                    </div>
+                    <div class="detail-count">
+                        {{ analytics.sentiment_breakdown.neutral_count }} reviews
+                    </div>
+                </div>
+            </div>
+            
+            <div class="detail-card negative">
+                <h3>😞 Negative Reviews</h3>
+                <div class="detail-stats">
+                    <div class="detail-percentage">
+                        {{ analytics.sentiment_breakdown.negative }}%
+                    </div>
+                    <div class="detail-count">
+                        {{ analytics.sentiment_breakdown.negative_count }} reviews
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
