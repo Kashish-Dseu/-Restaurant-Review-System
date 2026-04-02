@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+
+{% block title %}Home - Restaurant Review System{% endblock %}
+
+{% block content %}
+<div class="hero">
+    <div class="hero-content">
+        <h1 class="hero-title">🍽️ Restaurant Review System</h1>
+        <p class="hero-subtitle">Share your dining experiences with AI-powered sentiment analysis</p>
+        
+        <div class="hero-features">
+            <div class="feature-card">
+                <div class="feature-icon">📝</div>
+                <h3>Write Reviews</h3>
+                <p>Share your restaurant experiences</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🤖</div>
+                <h3>AI Analysis</h3>
+                <p>Automatic sentiment detection</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">📊</div>
+                <h3>Insights</h3>
+                <p>Get data-driven recommendations</p>
+            </div>
+        </div>
+        
+        <div class="hero-actions">
+            <a href="{{ url_for('register') }}" class="btn btn-primary">Get Started</a>
+            <a href="{{ url_for('login') }}" class="btn btn-secondary">Login</a>
+        </div>
+    </div>
+</div>
+
+<div class="info-section">
+    <div class="container">
+        <h2>How It Works</h2>
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h3>Register</h3>
+                <p>Create your free account</p>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">2</div>
+                <h3>Review</h3>
+                <p>Share your dining experience</p>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">3</div>
+                <h3>Analyze</h3>
+                <p>AI analyzes sentiment automatically</p>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">4</div>
+                <h3>Discover</h3>
+                <p>Find the best restaurants</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

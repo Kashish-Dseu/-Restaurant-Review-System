@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard - Restaurant Review System{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="page-header">
+        <h1>Welcome, {{ session.username }}! 👋</h1>
+        <a href="{{ url_for('add_review') }}" class="btn btn-primary">
+            <span>✍️</span> Write a Review
+        </a>
+    </div>
+
+    <div class="dashboard-grid">
+        <div class="dashboard-card">
+            <h2>🏪 All Restaurants</h2>
+            <div class="restaurant-list">
+                {% for restaurant in restaurants %}
+                <a href="{{ url_for('restaurant_details', restaurant_id=restaurant.id) }}" 
+                   class="restaurant-item">
+                    <div class="restaurant-info">
+                        <h3>{{ restaurant.name }}</h3>
+                        <p class="restaurant-meta">
+                            <span class="badge badge-cuisine">{{ restaurant.cuisine }}</span>
+                            <span>📍 {{ restaurant.location }}</span>
+                        </p>
+                    </div>
+                    <span class="arrow">→</span>
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="dashboard-card">
+            <h2>📝 Your Recent Reviews</h2>
+            {% if recent_reviews %}
+            <div class="reviews-list">
+                {% for review in recent_reviews %}
+                <div class="review-item">
+                    <div class="review-header">
+                        <h4>{{ review.restaurant_name }}</h4>
+                        <span class="sentiment-badge sentiment-{{ review.sentiment }}">
+                            {% if review.sentiment == 'positive' %}😊
+                            {% elif review.sentiment == 'negative' %}😞
+                            {% else %}😐{% endif %}
+                            {{ review.sentiment|capitalize }}
+                        </span>
+                    </div>
+                    <div class="rating">
+                        {% for i in range(review.rating) %}⭐{% endfor %}
+                        <span class="rating-text">{{ review.rating }}/5</span>
+                    </div>
+                    <p class="review-text">{{ review.review_text[:150] }}{% if review.review_text|length > 150 %}...{% endif %}</p>
+                    <p class="review-date">{{ review.created_at }}</p>
+                </div>
+                {% endfor %}
+            </div>
+            {% else %}
+            <div class="empty-state">
+                <p>You haven't written any reviews yet.</p>
+                <a href="{{ url_for('add_review') }}" class="btn btn-secondary">Write Your First Review</a>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

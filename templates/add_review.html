@@ -1,0 +1,128 @@
+{% extends "base.html" %}
+
+{% block title %}Add Review - Restaurant Review System{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="page-header">
+        <h1>Write a Review ✍️</h1>
+        <p>Share your dining experience</p>
+    </div>
+
+    <div class="review-form-container">
+        <form method="POST" action="{{ url_for('add_review') }}" class="review-form">
+            <div class="form-group">
+                <label for="restaurant_id">Select Restaurant *</label>
+                <select id="restaurant_id" name="restaurant_id" required class="form-input">
+                    <option value="">Choose a restaurant...</option>
+                    {% for restaurant in restaurants %}
+                    <option value="{{ restaurant.id }}">
+                        {{ restaurant.name }} - {{ restaurant.cuisine }} ({{ restaurant.location }})
+                    </option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="rating">Rating *</label>
+                <div class="star-rating">
+                    <input type="radio" id="star5" name="rating" value="5" required>
+                    <label for="star5" title="5 stars">★</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4" title="4 stars">★</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3" title="3 stars">★</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2" title="2 stars">★</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1" title="1 star">★</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="review_text">Your Review *</label>
+                <textarea id="review_text" name="review_text" required 
+                          placeholder="Share your experience... What did you like? What could be improved?"
+                          rows="6" class="form-input"></textarea>
+                <div class="char-counter">
+                    <span id="charCount">0</span> characters
+                </div>
+            </div>
+
+            <div id="sentimentPreview" class="sentiment-preview" style="display: none;">
+                <h3>AI Sentiment Analysis Preview</h3>
+                <div class="sentiment-result">
+                    <div class="sentiment-indicator">
+                        <span id="sentimentEmoji"></span>
+                        <span id="sentimentLabel"></span>
+                    </div>
+                    <div class="sentiment-score">
+                        Score: <strong id="sentimentScore"></strong>
+                    </div>
+                </div>
+                <div id="keywordsPreview" class="keywords-preview"></div>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">Submit Review</button>
+        </form>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+const reviewText = document.getElementById('review_text');
+const charCount = document.getElementById('charCount');
+const sentimentPreview = document.getElementById('sentimentPreview');
+
+// Character counter
+reviewText.addEventListener('input', function() {
+    charCount.textContent = this.value.length;
+    
+    // Real-time sentiment analysis
+    if (this.value.length > 10) {
+        analyzeSentiment(this.value);
+    } else {
+        sentimentPreview.style.display = 'none';
+    }
+});
+
+async function analyzeSentiment(text) {
+    try {
+        const response = await fetch('/api/sentiment_analysis', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ text: text })
+        });
+        
+        const result = await response.json();
+        displaySentiment(result);
+    } catch (error) {
+        console.error('Error:', error);
+    }
+}
+
+function displaySentiment(result) {
+    const emoji = {
+        'positive': '😊',
+        'neutral': '😐',
+        'negative': '😞'
+    };
+    
+    document.getElementById('sentimentEmoji').textContent = emoji[result.sentiment];
+    document.getElementById('sentimentLabel').textContent = result.sentiment.charAt(0).toUpperCase() + result.sentiment.slice(1);
+    document.getElementById('sentimentScore').textContent = result.score;
+    
+    // Display keywords
+    const keywordsDiv = document.getElementById('keywordsPreview');
+    if (result.keywords && result.keywords.length > 0) {
+        keywordsDiv.innerHTML = '<strong>Keywords:</strong> ' + 
+            result.keywords.map(k => `<span class="keyword-tag">${k}</span>`).join(' ');
+    }
+    
+    sentimentPreview.style.display = 'block';
+}
+</script>
+{% endblock %}

@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+
+{% block title %}{{ restaurant.name }} - Restaurant Review System{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="restaurant-header">
+        <div class="restaurant-title">
+            <h1>{{ restaurant.name }}</h1>
+            <div class="restaurant-badges">
+                <span class="badge badge-cuisine">{{ restaurant.cuisine }}</span>
+                <span class="badge badge-location">📍 {{ restaurant.location }}</span>
+            </div>
+        </div>
+        
+        <div class="restaurant-stats">
+            <div class="stat-card">
+                <div class="stat-value">{{ avg_rating|round(1) }}</div>
+                <div class="stat-label">Average Rating</div>
+                <div class="stars">
+                    {% for i in range(avg_rating|int) %}⭐{% endfor %}
+                </div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-value">{{ reviews|length }}</div>
+                <div class="stat-label">Total Reviews</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sentiment-summary">
+        <h2>Sentiment Analysis</h2>
+        <div class="sentiment-bars">
+            <div class="sentiment-bar">
+                <span class="sentiment-label">😊 Positive</span>
+                <div class="bar-container">
+                    <div class="bar bar-positive" style="width: {{ (sentiment_counts.positive / reviews|length * 100)|round if reviews else 0 }}%"></div>
+                </div>
+                <span class="sentiment-count">{{ sentiment_counts.positive }}</span>
+            </div>
+            
+            <div class="sentiment-bar">
+                <span class="sentiment-label">😐 Neutral</span>
+                <div class="bar-container">
+                    <div class="bar bar-neutral" style="width: {{ (sentiment_counts.neutral / reviews|length * 100)|round if reviews else 0 }}%"></div>
+                </div>
+                <span class="sentiment-count">{{ sentiment_counts.neutral }}</span>
+            </div>
+            
+            <div class="sentiment-bar">
+                <span class="sentiment-label">😞 Negative</span>
+                <div class="bar-container">
+                    <div class="bar bar-negative" style="width: {{ (sentiment_counts.negative / reviews|length * 100)|round if reviews else 0 }}%"></div>
+                </div>
+                <span class="sentiment-count">{{ sentiment_counts.negative }}</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="reviews-section">
+        <h2>Reviews ({{ reviews|length }})</h2>
+        
+        {% if reviews %}
+        <div class="reviews-list">
+            {% for review in reviews %}
+            <div class="review-card">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <span class="reviewer-name">👤 {{ review.username }}</span>
+                        <span class="review-date">{{ review.created_at }}</span>
+                    </div>
+                    <span class="sentiment-badge sentiment-{{ review.sentiment }}">
+                        {% if review.sentiment == 'positive' %}😊
+                        {% elif review.sentiment == 'negative' %}😞
+                        {% else %}😐{% endif %}
+                        {{ review.sentiment|capitalize }}
+                    </span>
+                </div>
+                
+                <div class="rating">
+                    {% for i in range(review.rating) %}⭐{% endfor %}
+                    <span class="rating-text">{{ review.rating }}/5</span>
+                </div>
+                
+                <p class="review-text">{{ review.review_text }}</p>
+                
+                {% if review.keywords %}
+                <div class="review-keywords">
+                    <strong>Keywords:</strong>
+                    {% set keywords = review.keywords|from_json %}
+                    {% for keyword in keywords %}
+                    <span class="keyword-tag">{{ keyword }}</span>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="empty-state">
+            <p>No reviews yet. Be the first to review this restaurant!</p>
+            <a href="{{ url_for('add_review') }}" class="btn btn-primary">Write a Review</a>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
