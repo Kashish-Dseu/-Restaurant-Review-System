@@ -1,0 +1,658 @@
+names,ratings,cuisine
+Sahara Bakers,3.7,"Chinese, Bakery, Sichuan, Pizza, Burger"
+KFC,3.9,"Burger, Fast Food, Biryani, Desserts, Beverages"
+Subbaiah Gari Hotel,4.1,"South Indian, Andhra, Mithai"
+Paradise Biryani,3.9,"Biryani, Kebab, Desserts, Beverages"
+Pista House Bakery,4.3,"Fast Food, Sandwich, Pizza, Burger, Wraps, Rolls, Salad, Desserts"
+Shah Ghouse Hotel & Restaurant,4,"North Indian, Chinese, Mughlai, Mandi, Sichuan, Shawarma, Seafood, Beverages"
+Swagath Hotel,4.2,"South Indian, Chinese, North Indian"
+Just Parantha,4.2,North Indian
+Mehfil,4.1,"North Indian, Biryani, Mughlai"
+Cream Stone,4.3,"Ice Cream, Desserts"
+MS Bakery & Sweets,4.3,"Bakery, Desserts, Fast Food, Pizza"
+Iqbal Cafe,4.4,"Hyderabadi, Biryani"
+Mahalaxmi Tiffin Centre,4.1,South Indian
+Al- Naseer Tahari Centre,4.3,Biryani
+Pizza Hut,3.7,"Pizza, Fast Food, Desserts, Beverages"
+Andhra Gunpowder,4.3,"Andhra, Biryani, South Indian, Desserts, Beverages, Hyderabadi"
+Burger King,4.2,"Burger, Fast Food"
+Kinara Grand,4,"North Indian, Chinese, Andhra, Seafood"
+Meridian Restaurant,4.1,"Biryani, North Indian, Seafood, Chinese, Kebab"
+KS Bakers,4.1,"Bakery, Fast Food, Pizza, Burger"
+Biryani Trip,4.3,"Biryani, South Indian, Mughlai, Andhra, Desserts, Hyderabadi"
+La Pino'z Pizza,3.9,"Pizza, Pasta, Fast Food"
+NIC - Natural Ice Creams,4.5,"Ice Cream, Desserts"
+Tipsy Topsy Bakery,4,"Bakery, Fast Food, Rolls, Chinese, Pizza, Burger"
+Kwality Wall’s Frozen Dessert and Ice Cream Shop,4.4,Ice Cream
+Karachi Bakery,4.3,"Bakery, Chinese, Pizza, Fast Food"
+Subway,3.9,"Healthy Food, Fast Food, Sandwich, Salad, Wraps, Beverages"
+Scoops,4.2,"Ice Cream, Desserts, Pizza"
+Airport Bawarchi Restaurant,4.2,"North Indian, Chinese"
+The Thickshake Factory,4.2,"Shake, Ice Cream"
+Sri Kanya Comfort,4,"Andhra, North Indian, Chinese, Seafood, Beverages, Desserts"
+Natural Ice Cream,4.2,"Ice Cream, Desserts"
+G. Pulla Reddy Sweets,4.4,Mithai
+CakeZone,4.1,"Bakery, Desserts, Ice Cream, Pancake"
+Lassi Shop,4.2,"Beverages, Ice Cream, Desserts, Shake"
+Rice Bowl,3.7,North Indian
+King's Palace,3.8,"Chinese, North Indian"
+Behrouz Biryani,3.9,"Biryani, Mughlai, Kebab, Desserts"
+Andhra Meals And Tiffins,4.1,Andhra
+Kritunga - The Palegar's Cuisine,3.7,"Andhra, South Indian, Biryani, North Indian, Desserts"
+LunchBox - Meals and Thalis,3.9,"North Indian, Biryani, Chinese, Healthy Food, Desserts, Beverages"
+Haldiram's,4.2,"North Indian, South Indian, Street Food, Fast Food, Desserts, Beverages, Tea"
+Makers Of Milkshakes,4.3,"Shake, Ice Cream, Desserts"
+Capital Multi Cuisine Restaurant,3.9,"North Indian, Chinese, Biryani, Seafood, Kebab, Mandi, Desserts, Beverages"
+Chutneys,4,"South Indian, North Indian, Chinese"
+Arun Ice Creams,4.5,"Ice Cream, Desserts"
+Swiss Castle,4.3,"Bakery, Fast Food"
+Crystal Restaurant & Bar,3.9,"North Indian, Chinese, Mughlai"
+Kamat Hotel,4.2,"North Indian, South Indian, Chinese"
+Riyan Hotel,3.7,"Mughlai, Biryani"
+1989 Pizza & Thick Shake's,4.1,"Fast Food, Pizza, Pasta, Desserts, Beverages, Shake, Coffee"
+Tibb's Frankie,3.9,Rolls
+Zomoz - The Momo Company,4,"Momos, Fast Food"
+Kwality Wall’s Frozen Dessert and Ice Cream Shop,4.5,Ice Cream
+Faasos - Wraps & Rolls,4,"Fast Food, Wraps, North Indian, Desserts, Beverages"
+Sri Sai Raghavendra Udipi Veg,3.9,"South Indian, North Indian"
+Indian Bakery,4.4,"Bakery, Desserts, Mithai, Fast Food, Pizza, Burger"
+Mohammedia Shawarma,3.7,"Kebab, Street Food, Wraps, Momos, Biryani, Shawarma"
+WOW! Momo,4,"Momos, Fast Food, Beverages"
+Yours Universe - Bakes & Cakes,4.1,"Bakery, Fast Food"
+Eagles Pizza,4,"Pizza, Fast Food"
+Millet Express,4,"Healthy Food, South Indian, North Indian, Biryani, Beverages"
+Thali Central,3.7,"Fast Food, North Indian, Healthy Food, Biryani, Desserts, Beverages"
+Ram Ki Bandi,4.2,South Indian
+Bhattad Ki Idli - Rambharose Bhandar,4,South Indian
+Cafe Niloufer,4.4,"Cafe, Beverages, Fast Food, Tea"
+The Belgian Waffle Co.,4.4,"Waffle, Desserts, Pancake"
+Hotel Swagath,4.3,"South Indian, Beverages"
+Dadu's,4.4,"Mithai, Desserts, Street Food, Bakery"
+Starbucks Coffee,4.2,"Cafe, Beverages, Fast Food, Desserts, Tea"
+Fancy Ice Cream,4.2,"Desserts, Ice Cream"
+Temptations,4.3,"Ice Cream, Desserts, Fast Food, Pizza"
+Almond House,4.6,"Mithai, Street Food"
+Papaji-Da-Dhaba,4,"North Indian, Mughlai, Chinese, Biryani"
+Taco Bell,3.7,"Mexican, Fast Food, Wraps"
+Star Hotel,3.6,"Chinese, Biryani"
+The Biryani Life,3.6,"Biryani, North Indian, Fast Food, Beverages, Desserts"
+Ambika Tiffin Center,4.3,South Indian
+Baskin Robbins,4.1,"Ice Cream, Desserts, Waffle"
+Pathemari Kerala Restaurant,4.1,"Kerala, Biryani, South Indian"
+WOW! China,4.1,"Chinese, Asian, Sichuan"
+BrownBear,3.8,"Bakery, Fast Food, Pancake"
+Bikanervala,4.3,"Mithai, Street Food, North Indian, South Indian, Fast Food, Beverages, Desserts, Pizza"
+Sri Mahalaxmi Reddy Brother's Tiffins & Fast Food,4.3,"Chinese, South Indian, Sichuan"
+Minerva Coffee Shop,4.2,"South Indian, North Indian, Chinese, Ice Cream, Beverages, Desserts"
+Vellanki Foods,4.4,Mithai
+Shree Golden Palace,3.9,"North Indian, Biryani, Chinese, South Indian"
+FarmBowl By Urbankisaan,3.9,"Healthy Food, Salad"
+Lassi Shop,4,"Fast Food, Burger, Beverages, Shake, Juices, Ice Cream"
+Suprabhat Tiffins,3.9,South Indian
+Hotel Sandarshini,4.2,"South Indian, North Indian, Chinese"
+Cake L'amore,3.8,"Bakery, Desserts"
+Balaji Family Dhaba,4,"North Indian, Chinese, Biryani, Sichuan"
+Balaji Santhosh Dhaba,4,"North Indian, Chinese"
+Theobroma,New,"Bakery, Desserts, Coffee"
+New Grand Restaurant & Bakery,4,"Chinese, Bakery"
+Blue Fox,4,"Chinese, Continental, North Indian"
+Balapur Bawarchi Restaurant,3.8,"North Indian, Chinese"
+Oven Secretz,4.3,"Bakery, Pizza, Fast Food, Burger"
+California Burrito,4.3,"Mexican, Healthy Food, American, Salad, Continental, Beverages"
+The Good Bowl,3.8,"Asian, North Indian, Pasta, Biryani"
+Minerva Coffee Shop,4.1,"South Indian, Tea"
+MS Bakery,4.3,"Pizza, Rolls, Fast Food, Desserts, Bakery"
+Milan Juice Centre,4.2,"Beverages, Desserts, Lebanese, Shake, Shawarma"
+New Balaji Santosh Dhaba,4.1,"North Indian, Chinese"
+Nausheen Fruit Juice Centre,4.4,"Juices, Beverages"
+Amantran,3.9,"Bengali, Chinese"
+Hotel Niagara,3.9,"North Indian, Biryani, Arabian, Beverages, Mandi"
+King's Restaurant,4,"Arabian, North Indian, Chinese, Mandi, Beverages, Desserts, Sichuan, Shawarma"
+Minerva Sweets,4.4,"Mithai, Desserts, Juices, Fast Food"
+Hotel Parwaz,4,"Chinese, North Indian, Kebab, Biryani, Seafood, Beverages, Mughlai, Sichuan"
+NR's Nandini Sudha,3.9,"North Indian, Chinese, South Indian, Mughlai, Desserts, Beverages"
+Fishland,4,"North Indian, Chinese, Andhra"
+Anu Tiffins Centre,4.2,"South Indian, Street Food"
+Bakingo,4.4,"Bakery, Desserts, Coffee"
+AB's - Absolute Barbecues,3.8,"North Indian, Street Food, Fast Food, BBQ, Desserts"
+Dwaraka Veg Restaurant,4.1,"South Indian, North Indian, Chinese, Biryani, Beverages, Desserts"
+DUNKIN' DONUTS,4.3,"Burger, Desserts, Tea, Coffee"
+Hotel Sohail,4.2,"North Indian, Mughlai, Kebab, Chinese, Beverages, Desserts"
+Sri Durga Udupi Tiffins & Meals,3.9,South Indian
+Momo Monk,4.3,Momos
+Babai Grand Hotel,3.6,"South Indian, Chinese, North Indian, Biryani"
+Redaan Restaurant,4.1,"Biryani, Mughlai, Chinese, Kebab, Sichuan"
+Nandu Fresh Fruit Juice Centre,3.7,"Beverages, Juices, Shake, Healthy Food"
+Royal Juice Cente,4,"Juices, Beverages, Fast Food, Shake"
+Krispy Kreme,4.3,"Desserts, Beverages"
+Ohri's Cake Nation,4.1,"Bakery, Desserts, Ice Cream"
+Hotel Sweekar,4,"South Indian, Beverages"
+Taj Mahal - Taj Mahal Hotel,4.2,"North Indian, South Indian, Chinese, Street Food, Fast Food, Beverages"
+Masqati Ice Cream,4.3,"Ice Cream, Desserts, Pizza, Fast Food, Street Food, Beverages"
+Hotel Sri Raghavendra Udupi Veg,4.1,"South Indian, Chinese, North Indian, Juices, Beverages, Desserts, Sichuan"
+Sindhura Eastcourt Tiffins & Meals,3.9,"South Indian, Desserts, Beverages"
+Bhattad Ki Idli - Rambharose Bhandar,4,South Indian
+Hotel Ashoka Grand Udupi Veg,3.7,"South Indian, Chinese"
+Sri Gayatri Bhavan,4.3,South Indian
+Haldirams Sweets And Namkeens,4.3,"Mithai, North Indian, Street Food, South Indian, Beverages"
+"Frozen Bottle - Milkshakes, Desserts and Ice Cream",4.2,"Beverages, Desserts, Ice Cream, Waffle"
+Fruitfull,4.2,"Healthy Food, Desserts"
+Sandwich Eatery,4,"Fast Food, Sandwich, Shake, Beverages, Burger, Coffee"
+Hotel Anand Bhavan,3.4,"South Indian, Beverages"
+Snack House,4.1,"Fast Food, Momos"
+4M Biryani House,4.2,"North Indian, Chinese"
+Vasireddy Swagruha Foods,4.2,"Mithai, Street Food"
+Ikraam Restaurant,4,"North Indian, Chinese, Mughlai, Asian, Mandi, Desserts, Biryani, BBQ"
+Krishna Food Court,3.8,"Chinese, Biryani, North Indian"
+Royal Tiffin Center,3.7,"South Indian, Street Food, Beverages"
+Just Bake,4.2,"Bakery, Desserts, Fast Food, Street Food, Pizza, Burger"
+ibaco,4.1,"Desserts, Ice Cream"
+Kwality Wall’s Frozen Dessert and Ice Cream Shop,3.9,"Ice Cream, Desserts"
+Suprabath Tiffins,4,"South Indian, Juices"
+Abhiruchi Swaghruha Foods,4.5,Mithai
+Indira Darshini,3.9,"Chinese, Biryani, North Indian"
+Krupa Mess & Tiffins,3.6,"South Indian, Chinese, North Indian, Sichuan, Pizza"
+Baker Street,4.3,"Bakery, Chinese, Sandwich, Burger, Pizza, Fast Food"
+Alhamdulilah Juice Centre,3.7,"Juices, Beverages, Ice Cream, Shake"
+Taj Mahal Hotel,4,"South Indian, Chinese, North Indian, Beverages, Desserts, Sandwich"
+Sweet Truth - Cake and Desserts,4.3,"Desserts, Bakery"
+Sri Raghavendra Udupi,3.9,"South Indian, Chinese"
+Onesta,3.5,"Pizza, Pasta, Fast Food, Desserts, Beverages"
+Chung Hua Restaurant,4.2,"Chinese, Singaporean, Thai, Seafood, Ice Cream, Beverages, North Indian, Sichuan"
+The Nosh Bistro,3.8,"Fast Food, Sandwich, Burger, Pizza, Mexican, Beverages"
+Telangana Inti Ruchulu,4.1,"Biryani, South Indian, Beverages"
+Masqati Ice Cream,4.4,"Desserts, Fast Food, Street Food, Pizza, Ice Cream, Beverages"
+Cafe Coffee Day,3.6,"Cafe, Fast Food, Coffee, Desserts, Beverages"
+Sri Raghavendra Tiffins and Meals,4,"South Indian, Street Food"
+Shree Ganesh Darshini,3.8,"South Indian, Beverages"
+SLAY Coffee,4.2,"Beverages, Coffee"
+The Dessert Bakers,3.4,"Waffle, Desserts"
+Pure Veg Meals by LunchBox,4,"North Indian, Street Food"
+Green Treat Vegetarian Food Court,4.1,"South Indian, Chinese, Fast Food, North Indian, Street Food, Biryani, Sandwich, Beverages"
+Juice World,4,"Beverages, Juices, Salad, Shake, Desserts"
+CAKES11,3.6,"Bakery, Desserts"
+Amay Tiffin Corner,3.9,"South Indian, Street Food, Juices, Beverages"
+Emerald Mithai Shop,4.5,Mithai
+Al Kareem Hotel,4.1,Hyderabadi
+The Brooklyn Creamery - Healthy Ice Cream,3.8,Ice Cream
+Forbes Cafe & Restaurant,3.7,"Biryani, Cafe, North Indian, Continental, Street Food, Beverages, Desserts, Pizza"
+Amaravathi Family Restaurant,4.1,"North Indian, Chinese, Andhra"
+Tewari Brothers Mithaiwala,4.2,"Mithai, Desserts, Street Food"
+Famous Ice Creams,4.2,"Desserts, Ice Cream"
+Shree Balaji Family Dhaba,3.7,"North Indian, Fast Food"
+Monginis,4,"Bakery, Desserts, Fast Food"
+Wholesale Cakes,3.9,Bakery
+Sri Sai Veg Point,4.1,"Chinese, North Indian, Sichuan"
+Euphoria,4.6,"Desserts, Bakery"
+Khichdi Express,3.5,North Indian
+Sri Darshini Pure Veg,3.9,"South Indian, Chinese"
+Shri Morya Home Foods Marathi Katta,4.1,"Maharashtrian, Fast Food, Street Food, Beverages"
+Hotel Woodside,4.4,South Indian
+Roastery Coffee House,4.3,"Cafe, American, Continental, Italian, Coffee, Beverages, Pizza, Burger"
+Drunken Monkey,4.3,"Healthy Food, Juices, Beverages"
+Sahadeva Reddy Tiffins,4.2,Street Food
+Govind Dosa,3.5,South Indian
+Samosa Singh,3.7,"Street Food, Fast Food, North Indian, Maharashtrian, Tea"
+Chai Point,4,"Tea, Beverages, Fast Food"
+Ganesh Mithai Bhandar,4,"Mithai, Street Food"
+Om  Best Paratha,3.9,"North Indian, Chinese, Fast Food, Beverages, Sichuan, Pizza"
+Grand Bawarchi Restaurant,4.3,"North Indian, Chinese, Biryani"
+Sri Vasavi Grand,3.7,"South Indian, Chinese, Sichuan"
+Huber & Holly,4.1,"Pizza, Fast Food, Pasta, Sandwich, Beverages, Shake, Ice Cream"
+Conçu,4.3,"Cafe, Continental, Beverages"
+Famous Tiffins,4,South Indian
+Sri Amul Tiffin Centre,4.1,South Indian
+Black Pearl - Hotel Central Park,3.9,"North Indian, Chinese, Mughlai, Seafood, Kebab, Biryani, Beverages, Sichuan"
+Parathawala,3.9,North Indian
+Firangi Bake,4.3,"Mexican, Italian, Desserts, Pizza"
+A Balaji Santosh Dhaba,4,"North Indian, Biryani, Chinese"
+Hotel Abinand Grand,3.1,"North Indian, Chinese, Mughlai, Seafood, Andhra, Biryani, Desserts, Beverages"
+Eclair De Cake,3.3,"Bakery, Desserts"
+VNR Fresh Juice Center,3.6,"Beverages, Ice Cream, Salad"
+Cupcake Bliss Cakes & Desserts,4.1,"Bakery, Desserts"
+Express By ABs,4,"North Indian, Biryani, Mughlai, BBQ"
+Coconut Juice Bar,4,"Beverages, Shake, Ice Cream"
+Bakers 'Q',4.1,"Bakery, Fast Food, Desserts, Sandwich, Burger, Rolls, Pizza"
+Madhur Sweets,4.5,"Mithai, Desserts"
+Deccan Chef,4.1,Biryani
+Saudagar Kalyani Biryani And Tahari,4.3,Biryani
+Cake D'licious,3.8,"Bakery, Desserts"
+Rahul's Adda,4,"South Indian, North Indian"
+WarmOven Cake & Desserts,3.9,"Bakery, Desserts"
+Balaji Mukesh Mithai Bhandar,4.3,Mithai
+Salasar Chat And Tiffins Center,4.2,"Street Food, South Indian"
+Tea Time,4,"Tea, Shake, Beverages, Street Food"
+Nizams Khana Ghar,3.9,"South Indian, Chinese, Street Food"
+Ghrelin Cafe & Patisserie,4.2,"Cafe, Continental, Italian, Fast Food, Pizza, Desserts, Beverages, Burger"
+The Exotic Shawarma,4.1,"Fast Food, Beverages, Shake, Pizza, Momos, Shawarma"
+Dessi Cuppa,3.9,"Beverages, Fast Food"
+K&C Bakers & Confectioners,3.8,"Bakery, Fast Food, Beverages, Pizza, Burger"
+Makhni Brothers,3.8,"North Indian, Kebab, Biryani, Awadhi, Hyderabadi, Modern Indian, Desserts, Beverages"
+Sri Siddartha Pure Veg,4.1,"South Indian, Beverages, Tea"
+Five Star,3.4,"Fast Food, Roast Chicken"
+Tawakkal Bakery & Sweets,3.8,Mithai
+Ravi Tiffins,4.1,South Indian
+Agra Mithai Ghar & Restaurant,4.2,"Mithai, Fast Food, Street Food"
+Ankapur Chicken,4.1,"South Indian, Hyderabadi"
+Sri Raghavendra Curry Express,4.4,"South Indian, Beverages, Desserts"
+Asoka Restaurant,3.8,"North Indian, Chinese"
+Natural Juice Cycle,4.3,"Beverages, Juices, Shake"
+Dumont,4.3,"Ice Cream, Beverages, Desserts, Shake, Tea"
+A.M. Tiffin Centre,4.3,South Indian
+Cakeland Sweets & Bakery,3.7,"Bakery, Mithai, Fast Food, Desserts"
+Sri Raghavendra Tiffins,4,South Indian
+Momo Zone - The Momo Company,2.7,Momos
+VR Raghavendra Tiffins,3.8,South Indian
+Keventers - Milkshakes & Desserts,4,"Beverages, Desserts, Ice Cream, Shake"
+Makhni Brothers,3.7,"North Indian, Kebab, Biryani, Hyderabadi, Mughlai, Desserts"
+Punjab Restaurant,4.2,"North Indian, Biryani, Chinese, Mughlai, Andhra, Beverages"
+The Dessert Zone,3.9,"Desserts, Shake"
+Cakes Online,3.5,"Bakery, Ice Cream, Desserts"
+Sh Shawarma,4.3,"Fast Food, Momos, Shawarma"
+Snehitha Restaurant,4.3,"South Indian, North Indian, Chinese, Fast Food, Beverages, Shake"
+Kaati Zone Rolls And Wraps,4.3,"Rolls, Fast Food, Sichuan"
+Tif In,3.5,South Indian
+Dine Hill,4,"North Indian, Chinese"
+Sahadeva Reddy Pure Ghee Sweets,4.2,"Mithai, Street Food, Fast Food"
+Coffee And More,4.3,"Fast Food, Coffee, Beverages"
+Meals101,3.6,"Asian, North Indian, Chinese, Mexican, Italian, Desserts, Beverages, Sichuan"
+Sri Sai Ram Darshini Tiffins & Meals,4,South Indian
+Madina Tiffins,4.1,South Indian
+Haji Ali Fresh Fruit Juices,4.3,"Beverages, Fast Food, Pizza"
+Noodle House,3.9,"Chinese, Sichuan"
+Sri Raghavendra Tiffin Centre,3.9,South Indian
+45th Avenue,4.1,"Cafe, Coffee, Burger, Sandwich, Beverages, Desserts, Tea, Continental"
+Phulkaas - Indian & Mughlai,3.6,"Mughlai, North Indian, Andhra, Kebab"
+Mahalaxmi Tiffin Centre,4.1,South Indian
+Bismillah Hotel,3.7,"South Indian, Biryani"
+Swagth Hotel,4.3,"North Indian, South Indian, Chinese, Desserts"
+CAKES11,3.5,Bakery
+Veggie Chinese,4.1,"Chinese, North Indian, Biryani"
+Shiva Sai Reddy Sweets & Chaat,4.4,"Mithai, Street Food"
+South India Tiffins Meals & Fast Food Adda,4.3,"Biryani, Chinese"
+Taiba Bakery & Cafe,4.1,"Bakery, Fast Food, South Indian, Beverages, Shake, Pizza, Burger, Tea"
+Balaji Santosh Dhaba,3.9,"Biryani, North Indian, Chinese"
+Hyderabad Tiffin Centre,4.3,South Indian
+Delicious Dosa,4.1,South Indian
+Indiana Burgers,4,Burger
+Swathi Coffee Shop,4.1,"North Indian, Chinese, South Indian, Beverages"
+North Food Factory,3.9,"North Indian, Fast Food"
+A2 Fast Food,3.9,"Chinese, North Indian"
+Teju Mess,3.6,"South Indian, North Indian, Biryani, Hyderabadi, Chinese"
+Annapurna Mess,3.6,"Hyderabadi, Chinese"
+The Chocolate Room,3.9,"Cafe, Italian, Mexican, Fast Food, Desserts, Beverages, Sichuan, Pizza"
+Gelatica Gelato - Ice Cream,4,"Ice Cream, Desserts, Healthy Food"
+De Cafe Studio,3.6,"Cafe, Fast Food, Burger, Chinese, Sandwich, Desserts, Shake, Beverages"
+Samosa Party,4,"Street Food, Beverages"
+Cakes King,3.7,"Bakery, Ice Cream, Desserts"
+Gayathri Curry Point,3.5,South Indian
+Bench Cafe & Restaurant,4.2,"Cafe, Chinese, Fast Food, Beverages, Sichuan, Pizza, Burger, Momos"
+Theory Cafe & Dessert Bar,4.1,"Cafe, Fast Food, Desserts, Beverages, Shake, Tea"
+Flying Spaghetti Monster,4.2,"Italian, Beverages, Pizza"
+Feranoz,4.4,"Cafe, Bakery, Desserts, Pizza, Fast Food, Beverages, Italian"
+Mehfil Biryani By Zakir Khan,3.5,"Biryani, Mughlai, Lucknowi, Hyderabadi, Kebab, North Indian, Desserts, Beverages"
+Tea's N More,3.5,"Fast Food, Street Food, Tea, Pizza, Sandwich"
+Qvinch,3.8,"Beverages, Juices, Shake, Salad, Pizza, Desserts, Healthy Food, Sandwich"
+Sri Balaji Mithai Bhandar,4.3,"Mithai, Street Food"
+Garamm Chai Cafe,4.1,"Fast Food, Burger, Sandwich, Street Food, Chinese, Pizza, Beverages, Sichuan"
+New Delhi Mithai Wala,4.1,"Mithai, Street Food"
+Pizza Stories,3.1,Pizza
+Aangan - Yaatri Nivas,4.1,"North Indian, Andhra, Chinese, Beverages, Desserts"
+Tara Juice World,4.1,"Beverages, Juices, Shake"
+Hameedi Confectioner,4.5,"Mithai, Desserts"
+New Balaji Santosh Family Dhaba,3.9,"Fast Food, Chinese, North Indian"
+50 Fruits,4.2,"Beverages, Street Food, Sandwich, Salad, Shake, Juices"
+Aarth - Authentic Claypot Biryanis,3.9,"Biryani, Hyderabadi, Kebab"
+Chotu's - The Food People,4.1,"North Indian, Chinese"
+LunchBox - Meals and Thalis,4,"North Indian, Healthy Food"
+Splurge - Thickshakes And Milkshakes,3.5,"Shake, Beverages"
+Burger It Up,4.2,"Burger, Fast Food, Beverages, Shake"
+Seasons Xprs,4.2,"Lebanese, Arabian, Rolls, Fast Food, Pizza"
+The Hole in The Wall Cafe,4.1,"Cafe, American, Italian, Beverages, Fast Food, Shake, Burger, Waffle"
+The Waffle Co,4.1,"Waffle, Pancake, Beverages, Shake"
+Royal Tiffin Centre,4,"South Indian, Street Food, Beverages"
+Paradise Fast Food & Juice,3.7,"North Indian, South Indian, Chinese, Kebab, Sichuan"
+New Babar Bakery,4,"Fast Food, Bakery, Desserts"
+Sivaramareddy Ghee Sweets & Chat,4.3,"Mithai, Street Food, Fast Food"
+M S Tiffin & Chat,4.1,"South Indian, Biryani"
+New Satyanarayan Mithai Bhandar,4.1,"Mithai, Desserts"
+The Funnel Hill Creamery,4.1,"Cafe, Fast Food, Waffle, Pancake, Coffee, Beverages"
+Mom Special,4.2,"North Indian, South Indian"
+The Burrito Bowl,4,Healthy Food
+Continue Night Way,3.6,North Indian
+Superly - The Cosmo Cafe,3.4,"Fast Food, Pizza, Momos"
+Shero Home Food - Chettinad,4,South Indian
+Prathi Roju Inti Meals Curries,3.3,South Indian
+Agra Sweets,4.2,"Mithai, Street Food"
+Meals101,3.5,"Asian, North Indian, Chinese, Mexican, Italian, Desserts, Beverages, Sichuan"
+Sri Vaibhav Tiffins,4.2,South Indian
+Qaffeine By Ohri's,4.4,"Cafe, Fast Food, Wraps, Pizza, Beverages, Shake, Desserts"
+Balaji Hukmichand Mithai Bhandar,4.3,"Mithai, Street Food"
+Lingaiah Tiffin Center,4.4,South Indian
+Balaji Mithai Bhandar,4.3,"Mithai, Desserts"
+Italian Hub,3.9,"Pizza, Fast Food"
+Pallavi Tiffin Centre,4.2,South Indian
+Swathi Mess & Dhaba,4.1,"North Indian, Chinese, Sichuan"
+Sanjos Donuts,4,"Fast Food, Beverages, Desserts"
+Juice Splash,4.1,"Beverages, Juices, Shake"
+15 Andra Pappu Currys & Meals,3.5,"South Indian, North Indian, Andhra"
+Ramadevi Curry Point & Mess,3.5,"South Indian, Biryani, North Indian"
+Vasudo Dhaba Inn,4.1,"North Indian, Chinese"
+Sahadeva Reddy's Chinese Kitchen,3.7,"Chinese, Sichuan"
+Slurpy Shakes,4,"Beverages, Desserts, Bakery, Shake"
+Low Budget Curry Point,4,North Indian
+Singh's Pure Veg Restaurant,3.9,"North Indian, Chinese"
+Balaji Mahesh Mithai Bhandar,4.3,"Mithai, Street Food"
+The Brooklyn Creamery - Healthy Ice Cream,4,"Ice Cream, Desserts"
+RHM Bakers,3.2,"Bakery, Fast Food, Shake, Beverages"
+Apple Cut Fast Food & Juice Center,4.1,Juices
+10 Rupee Meals,3.4,"South Indian, North Indian, Beverages"
+Fat Tiger,3.5,"Fast Food, Beverages, Coffee, Pizza, Burger, Momos, Tea"
+Masala Medley,4,"North Indian, Chinese, Sichuan"
+A1 Fast Food And Nahari Centre,3.5,"Chinese, Mughlai"
+UR Life Cafe,4,"Cafe, Continental, Healthy Food, Italian, Pizza, Tea"
+Rahul Tiffin & Fast Food Centre,3.5,South Indian
+Summer Land,4.3,"Salad, Desserts, Beverages, Shake"
+Wholesale Bakery,3.9,"Bakery, Desserts, Fast Food, Burger, Shawarma"
+Té - A Tea Tradition,4.2,"Tea, Beverages, Fast Food, Shake, Coffee"
+Swastik Udupi Veg,3.6,"North Indian, South Indian, Chinese"
+Jamie's Pizzeria By Jamie Oliver,3.9,"Pizza, Italian"
+Dostea,4.2,"Beverages, Street Food, Shake, Sandwich, Tea"
+Feel In Saudia Shawarma,4.3,Shawarma
+Bikaner Mithaiwala,3.7,"Mithai, Street Food"
+FresHygiene@365,3.9,North Indian
+Moghal's Tiffin Centre,4,South Indian
+Hotel Miskeen,4.1,"Mughlai, Hyderabadi"
+Roti Express,-,North Indian
+Cakes & Pastries,4,"Bakery, Desserts"
+Vinayak Tiffins,4.1,South Indian
+Naseeb Hotel,3.8,Hyderabadi
+Anupama Hotel Veg & Non Veg,3.7,"Hyderabadi, Biryani"
+Delhiwala Sweets & Chat,4.1,"Mithai, Street Food"
+Kouzina Kafe - The Food Court,3.8,"Fast Food, Bakery, Desserts, Shake"
+Gourmet Ice Cream Cakes By Baskin Robbins,4.2,"Bakery, Desserts, Ice Cream"
+New Delhi Mithaiwala,4.1,"Mithai, Street Food"
+PVR Café,3.5,"Fast Food, Momos, Beverages"
+Ritz Food World,4,"Fast Food, Desserts, Beverages"
+Juice Box,3.9,"Beverages, Sandwich, Desserts, Shake, Healthy Food"
+Van Lavino,4.2,"Cafe, Desserts, Pizza, Burger, Waffle, Tea"
+"Sri Siddhi Vinayaka Tiffins, Meals & Sweets",4.2,South Indian
+Dosa King - The Taste Of South,3.9,South Indian
+Paris Waffle Co.,3,"Waffle, Desserts"
+New Al Madina Hotel,-,"Mughlai, Chinese"
+Swathi Tiffiens Somajiguda,3.7,"Chinese, Beverages, Shake"
+Dosa House Restaurant,4.3,South Indian
+Bagara Rice And Curries Center,3.5,Andhra
+Dude Restaurant,3.5,"Chinese, Lebanese, Biryani"
+Sanwariya Mithai Wala,4.3,"Mithai, Street Food"
+Mamatha Darshini,4,South Indian
+Wok On! By Phulkaas,4.1,"Chinese, Sichuan, Momos"
+Cakes King,3.6,"Bakery, Ice Cream, Desserts"
+Shyam Singh Chat Bhandar,3.7,"Street Food, Fast Food"
+Meethe Miya,4.2,Mithai
+Burger Eats,3.9,"Fast Food, Beverages, Biryani, Desserts, Burger"
+Sri Ruchulu,3.7,South Indian
+Curry Pot,4,"North Indian, Chinese, South Indian, Continental, Sandwich, Beverages, Juices, Ice Cream"
+Shree Balaji Suraj Mithai Bhandar,4.1,"Mithai, Street Food"
+Waffle House,3.7,Cafe
+Mayodia Cakes N Bakes,4.3,"Bakery, Desserts, Fast Food"
+Fruitfull,3.9,Healthy Food
+Iceberg Organic Icecreams,3.8,"Desserts, Ice Cream"
+Birthday Cakes,4,Bakery
+The Joint,3.4,"Fast Food, Lebanese"
+Rida's Biryani House (Home Made Food),-,"Hyderabadi, North Indian"
+Currypoint Foods Of Shathamana Bavathi,-,South Indian
+LunchBox - Meals and Thalis,3.5,"Asian, Biryani, North Indian"
+Gupta Tiffins & Fast Food,4.1,"South Indian, Chinese, Sichuan"
+Tasty Bite,-,"Burger, Chinese, Fast Food, Beverages"
+Cakes Online,3.8,"Bakery, Desserts"
+Laddu ji,3.8,"Mithai, Desserts"
+Mahboob Bakers,3.8,"Bakery, Desserts, Fast Food"
+House Of Candy,4,Desserts
+Kiran Ki Rasoi,4.1,"North Indian, Chinese, Biryani, Desserts"
+TTT Juice Center,4.2,"Juices, Beverages, Shake"
+Sri Rami Reddy Pure Ghee Sweets,4.3,"Mithai, Street Food"
+Punjab National Hotel-PNH,4,"Mughlai, North Indian"
+Mast Kalandar The Kitchen,4.1,"North Indian, Rajasthani, Fast Food, Street Food"
+Masala Republic,4.2,"North Indian, Continental, Healthy Food, Fast Food, Burger, Pasta, Beverages, Desserts"
+Punjabi Rasoi,4.3,North Indian
+Shiv Shakti Jodhpur Sweets,4.2,"Mithai, Street Food"
+Indulge Ice Cream By Almond House,4,"Desserts, Ice Cream"
+Juice Express,-,"Juices, Healthy Food"
+Homely Meals And Curries Center,-,Mughlai
+Bai Ji Ka Choka,4,South Indian
+Amrit Juice Centre,3.9,"Beverages, Juices, Shake"
+Amma Special Food,4,South Indian
+Gayathri Bhavan,4,"South Indian, North Indian, Chinese"
+Desi Food Zone,-,"Maharashtrian, Fast Food, Chinese, North Indian, Bakery, Mithai, Desserts"
+TCS The Cake Story,4,Bakery
+Gladiator Nutrition And Food,4,"Fast Food, Healthy Food, Beverages"
+Biryani House,3.4,"North Indian, Fast Food, Desserts"
+Ae Spice Villa,3.7,"North Indian, Fast Food"
+Nue Cafe,3.9,"Cafe, Bakery, Pizza, Italian, Healthy Food, Tea"
+As Bakers,4.1,"Bakery, Desserts"
+Tasty Guru,4,"South Indian, Chinese"
+1 Kg Curries,-,South Indian
+Brista Restaurant,3.9,"Chinese, North Indian, Biryani, Mughlai, Sichuan, Shawarma"
+Hussain's Food Court,-,"Chinese, South Indian"
+The Favorite Biryani And Shawarma,3.2,"Biryani, Chinese, Shawarma"
+Zorro - Milkshakes And Thickshakes,3.5,"Shake, Beverages"
+Bhagyalaxmi Tiffin Centre,4,South Indian
+Juice And Sandwich Point,4.1,"Beverages, Sandwich, Juices, Salad, Healthy Food, Shake"
+Shahi Zaiqa,3.8,Hyderabadi
+Tempteas,3.6,"Fast Food, Street Food, Ice Cream, Beverages"
+The Kulfi Falooda Project,3.1,Ice Cream
+Shawarma Station,3.6,"Fast Food, Shawarma"
+Sundae Everyday Ice Creams,3.8,"Ice Cream, Desserts, Shake"
+Mohammedi Confectioners,4.1,Mithai
+The Pork Affair,4.3,"South Indian, Biryani"
+I-Creamy Cafe,3.7,"Fast Food, Sandwich, Ice Cream, Beverages, Shake"
+Shake Studio,3.7,"Beverages, Fast Food, Shake, Waffle"
+Royal Biryani & Kababs,3.7,"North Indian, Chinese, Biryani"
+Sri Krishna Sweets,4.7,Mithai
+The Health Bowl,3.1,"Healthy Food, Beverages, Shake"
+Dosa Express,4.1,South Indian
+N Village Restaurant,4.2,"Chinese, North Indian, Mughlai"
+Cocoworks,3.9,Beverages
+Cravings Cafe,4,"Cafe, Pizza, Fast Food"
+Krishna Idli's & Dosa's,3.9,"South Indian, Pizza"
+FNP Cakes And More,4,Bakery
+Hassan Grand Restaurant,3.8,"Chinese, South Indian, North Indian, Mughlai, Street Food, Biryani"
+Aroma Food Court,4,"South Indian, Chinese"
+Cafe Aroha,3.2,"Pizza, Burger, Fast Food"
+Cake Krejoi,4,"Bakery, Desserts, Shake"
+Bhaijaan's Avenue Multi cuisine Restaurant,New,"Fast Food, Chinese, North Indian, Biryani, Mughlai, Beverages"
+Green Park Hotel,-,Hyderabadi
+100 Rakhala Inti Bojanam,-,"Street Food, Andhra"
+"Gongura Pappu,Tomato Appu,Palakura Pappu 100 curries",3.5,South Indian
+Sri Balaji Sweets,3.9,"Mithai, Street Food"
+D Lounge- Tea Shakes And Snacks,3.8,"Beverages, Shake, Tea, Juices, Street Food"
+Frykiki,3.4,"Cafe, Fast Food, Chinese, Beverages"
+Roobaroo Cafe,4.3,"Cafe, Continental, Fast Food, Desserts, Beverages"
+Sri Balaji Mithai Bhandar,3.9,Mithai
+Tea Time,4,"Beverages, Tea"
+Cakes & Pastries,3.9,"Bakery, Desserts"
+Heritage Ice Creams,-,Ice Cream
+Star Paan Shop,4.3,"Paan, Ice Cream"
+Raju Rani Inti Ruchulu,-,Mughlai
+Saleem Stores The Pan Parlour,4.3,Paan
+Shresta Ruchi Food Court,3.6,"Chinese, South Indian, North Indian"
+GetAWhey - Healthy Ice Creams,4,Ice Cream
+The Wrap Co.,3.7,"Wraps, Rolls, Fast Food, Desserts, Beverages"
+Cakes 99,3.9,"Bakery, Desserts"
+New Agra Sweets,4.4,"Mithai, Desserts"
+Kohinoor Restaurant,-,"North Indian, Chinese, Seafood"
+Bombay Bar & Restaurant,3.8,"North Indian, Chinese, Seafood"
+Sri Bhanu Tiffin Center,4,"Andhra, Hyderabadi"
+Milan Bakery,3.5,Bakery
+Occasionkart Cakes,4.1,"Bakery, Desserts, Pizza, Sandwich, Burger, Fast Food"
+Cakes Den,3.5,"Bakery, Desserts, Ice Cream"
+Govind Di Maggie,3.8,Fast Food
+Jai Balaji Mithai Bhandar,-,"Mithai, Street Food"
+Cakes Papaji,3.2,"Bakery, Desserts"
+Sri Sai Bakery,4.1,"Bakery, Desserts, Fast Food, Beverages"
+Patel's Chips & Crisps,4.3,Street Food
+Badam And Kaju Ki Jali ( The Imperial Sweet House),4.4,Mithai
+Angel Bakers,4.2,"Bakery, Desserts"
+Sri Balaji Papalal Mithai Bhandar,4.3,"Mithai, Street Food"
+US Live Pops,4.6,Fast Food
+Havmor,4,"Ice Cream, Desserts, Beverages"
+Famous Fried Chicken,4,"North Indian, Fast Food, Wraps, Desserts, Shake"
+Govi's Organic Foods,3.9,Mithai
+Heavenly Biryani,-,"Biryani, Beverages"
+Cake 24x7,3.6,"Bakery, Desserts"
+Lassi & Falooda Co.,3.2,Beverages
+Homely Kitchen,3.8,"North Indian, Fast Food, Desserts"
+Kitchen Maha Raja,3.7,"North Indian, Fast Food, Desserts"
+Aaromale,3.9,"Cafe, Mexican, Italian, Pizza, Coffee, Tea, Desserts, Burger"
+Special Cakes,3.7,"Bakery, Desserts"
+Flavours Curated By ITC Kakatiya,4.1,"North Indian, Mughlai, Biryani"
+Eggsplode,3.9,"Healthy Food, Fast Food, Beverages"
+Burger Hub's,3.6,"Burger, Fast Food, Desserts"
+Sitara Foods,4.1,South Indian
+The Sandwich Story,3.1,"Sandwich, Beverages"
+24/7 Gallery Café - Hyatt Place,3.4,"Beverages, North Indian, Asian, Continental, Sichuan, Waffle"
+Sree Sai Satyanarayana Mithai Bhandar,4.2,"Mithai, Street Food, Desserts"
+Ironhill Cafe,2.8,"Cafe, Beverages, Coffee, Shake, Tea, Bubble Tea, Pancake"
+Balaji Mithai Wala & Chat,3.7,"Mithai, Street Food"
+Wild Fries And Corn,4.1,"Fast Food, Shake, Beverages, Sichuan"
+Chai Amruth,4,Beverages
+Shero Home Food - Andhra,New,"South Indian, Andhra"
+The Kadak Dosa,4,"Beverages, South Indian"
+Small Mixed Rice Veg Non Veg,-,"South Indian, North Indian"
+Mini Box House Of Curries,-,South Indian
+Turkish Shawarma And Burgers,3.6,"Fast Food, Shawarma"
+Fresco Grillicious & Broasted,-,"Lebanese, Wraps, Burger, Fast Food, Desserts, Shawarma"
+Smiley Mohan Fast Food,4,"Fast Food, Chinese, Sichuan"
+Chai Chowrasta,-,"Fast Food, Beverages"
+Food Adda,3.8,"Fast Food, Sandwich, Pizza, Burger, Beverages, Waffle, Tea, Coffee"
+Chai And More,New,"Fast Food, Shake, Beverages"
+Star Rotis And Catering Service,-,North Indian
+Tiffin Point,-,South Indian
+Dream Dessert Ice Cream,-,"Ice Cream, Desserts"
+Ganga Rambhabu Currypoint And Mess,-,South Indian
+Kings Food Court,-,"North Indian, Chinese, Sichuan"
+Bagara Rice Meals Center,-,"Andhra, Hyderabadi"
+Cafe Marka,-,"Continental, Italian, American, Cafe, Beverages"
+Kiran Tiffin Centre,-,South Indian
+Paradise Bakery - By Paradise Biryani,-,"Bakery, Desserts"
+Amogh Multicuisine Restaurant,-,"Biryani, South Indian"
+Kulfi Nation,4,"Ice Cream, Desserts, Cafe"
+Hunger Langar,3.7,"Fast Food, Burger, Pizza, Sandwich"
+Sambhar Bhojanam Mess,-,"South Indian, North Indian"
+Jk Tiffins,3.3,South Indian
+Veg And Non Veg Curry Bazar,-,South Indian
+Hangout,-,"Biryani, Chinese, Shake"
+20 Curries Meals,-,"South Indian, North Indian"
+Fryed Wings,3.2,"Fast Food, Roast Chicken"
+Dosa Street,3.3,South Indian
+Cost To Cost Curry Point,-,South Indian
+Cakes 07,4,"Bakery, Desserts"
+Non Veg  And Veg Bojanam,-,"Andhra, Street Food"
+Chapathi And Pulka Center,3,"South Indian, Street Food"
+Office Box Meals ( Veg And Non Veg),-,South Indian
+Exotic Fruit Bowl,4,Healthy Food
+Nice Tiffins,3.7,South Indian
+Amma Chapathi Pulkha Roti Point,-,South Indian
+New Rajasthan Chat Bhandar,3.6,Street Food
+Ice n Spice - Hotel Inner Circle,3.5,"North Indian, Chinese, Ice Cream, Continental, Desserts, Beverages, Shake"
+Telugu Vari Inti Ruchulu,-,South Indian
+Smoodies,-,Beverages
+Sri Shagun Mithai Vatika,4.5,Mithai
+Healing Rice Bowls,-,"North Indian, South Indian"
+Sri Ganesh Tiffins,4,South Indian
+Quench Paan & Smoothies,4.4,"Paan, Beverages, Street Food, Fast Food"
+Teacher’s Kitchen & Food,3.5,"Lebanese, Sandwich, Burger"
+Bullet Bandi Curry Point,-,"South Indian, North Indian"
+INOX,-,"Fast Food, Street Food"
+New Shahi Naan,4.3,North Indian
+Really Homely Foods Hotel,-,South Indian
+Cakes Temptations,2.9,"Bakery, Desserts"
+V Cafe- Meals By PVR,4,"Burger, Sandwich, Fast Food"
+Cravery Cafe,4,"Cafe, Continental, Fast Food, Salad, Healthy Food, Shake, Coffee, Desserts"
+Hotel Rajdhani,4,"South Indian, North Indian, Chinese, Beverages, Desserts"
+Ofen,4.2,"Cafe, Coffee, Sandwich, Italian, Mexican, Pasta, Fast Food"
+Bakers 'S' Treat,3.5,"Bakery, Fast Food, Chinese, Beverages, Desserts, Sichuan, Pizza"
+Mana Inti Ruchulu,3.3,"South Indian, Andhra"
+Cakes Hub,3.7,Bakery
+Myfroyoland,3.8,"Frozen Yogurt, Desserts"
+Jai Bhavani Tiffin Center,4.2,South Indian
+Italian Express,4,"Chinese, Fast Food, Pizza, Pasta, Italian"
+Barista,3.6,"Cafe, Coffee, Beverages, Fast Food"
+Sri Ramakrishna Reddy Pure Ghee Sweets,-,Mithai
+Zaika Bites,3.6,Fast Food
+Chandni Chowk,3.5,"Street Food, North Indian, Fast Food"
+Alfa Sweets,3.8,"Mithai, Desserts"
+MG Point Fast Food,-,"Fast Food, North Indian, Chinese"
+Eggiz - For Egg Lovers,3.2,"South Indian, Street Food, Fast Food, Chinese"
+The Rotii Makers Street,3.8,"Andhra, South Indian"
+Babai Express,3.1,South Indian
+Creamy N Creamy Ice Stone,3.6,"Desserts, Ice Cream, Fast Food, Shake, Beverages, Waffle"
+Jalebiwalas Mithai Bhandar,4,"Mithai, Street Food, Desserts"
+V Cafe @ Citadel By Vinnca,-,"North Indian, Chinese, Fast Food"
+D-Lite Shakes & Snacks,3.8,"Beverages, Momos, Shake, Street Food, Fast Food"
+Break The Bread - Sandwiches And Burgers,4.1,"Fast Food, Beverages, Shake"
+Truffle Tower,-,"Cafe, European, Italian, Pizza, Burger, Waffle, Tea, Coffee"
+FullFills,3.7,"Cafe, Healthy Food, Continental, Lebanese, Italian, Beverages, Shake, North Indian"
+7th Heaven,3.7,"Bakery, Fast Food, Beverages, Ice Cream, Desserts, Shake, Pizza, Waffle"
+HKGN Chat Bhandar,3.8,Street Food
+The Gallery Cafe,4,"Cafe, Continental"
+Mr Chaibaaz,4,"Fast Food, Tea"
+Saravana Udupi Hotel,3.9,South Indian
+Jupiters Neelam Bar & Restaurant,-,"North Indian, Chinese"
+Empala Hotel,3.5,Lebanese
+Balaji Vishnu Sweet House,4,"Mithai, Street Food, Tea"
+Verandah - The Park,3.7,"North Indian, Continental, Chinese, Desserts, Oriental, Biryani, Beverages"
+Arabian Shawarma Adda,3.6,"Middle Eastern, Shawarma"
+Jai Bhavani Spicy Hut fast food & Tiffins,4,"Chinese, Sichuan"
+Mataam Al Hind,3.7,"Arabian, Mandi"
+PopKing Popcorn,4,Fast Food
+Milkshakes Hub n More,4.2,"Beverages, Shake, Burger"
+Sip'R Slurp,3.6,"Beverages, Shake"
+Old Mumbai Ice Cream,4.3,"Ice Cream, Desserts, Shake, Beverages"
+Mimee's Chocolates,4.6,Desserts
+Rich Cake Wala,3.5,"Bakery, Desserts"
+Brownie Heaven,4,"Desserts, Ice Cream"
+ZUCI - Artisanal Chocolates & Cafe,4.2,"Cafe, Fast Food, Continental, Beverages, Desserts, Bakery, Shake, Tea"
+Rice Plus Plus,2.6,"Healthy Food, North Indian, Italian"
+Nature's Spirit,2.9,"Healthy Food, Sandwich, Beverages"
+Quality Shawarma,-,"Bakery, Shawarma"
+Quality Cakes,3.8,"Bakery, Desserts"
+Best Burgers,3.4,"Pizza, Burger, Fast Food"
+Cakes 07,4.2,"Bakery, Desserts, Beverages"
+Potful - Claypot Biryanis,4.1,"Biryani, Kebab, Mughlai, North Indian, Desserts, Beverages"
+The Burger Life,3.1,"Fast Food, Burger"
+Dairy Den,4.3,"Ice Cream, Desserts"
+Alfa Bakery,4,Bakery
+Enchanté Café & Confectionery,3.7,"Cafe, Italian, Continental, Burger, Fast Food, Desserts, Beverages, Pizza"
+Hydrate The Bar - Hampshire Plaza,-,"North Indian, Chinese, Beverages, Biryani, Desserts, Sichuan"
+Eat Subs,-,"Fast Food, Desserts"
+Sri Balaji Mithai Bhandar,4.3,"Mithai, Street Food"
+Ek Pyali Chai,3.6,"Fast Food, Street Food, Tea, Beverages, Coffee"
+Cakes99,3.8,"Bakery, Desserts"
+Vip Tasty Foods,-,Andhra
+Urban Turban,-,"North Indian, Chinese"
+New Balaji Family Dhaba,3.9,"North Indian, Chinese, Biryani"
+Kiranmai Food Court,-,"South Indian, Andhra"
+Mumbaichee Chaat Street,3.4,Street Food
+Kulfi Shulfi,-,Desserts
+Ariko Cafe,4,"Ice Cream, Desserts, Pizza, Waffle, Tea, Coffee"
+Firangi Fried Chicken,3.8,"Fast Food, Biryani"
+Sankla Tiffins & Dhaba,-,"Chinese, South Indian, North Indian"
+Meer Cafe,3.8,South Indian
+Bhavani Tiffins,4,South Indian
+Zaheer Juice Center,4.2,"Juices, Beverages, Shake, Desserts, Salad"
+Aashu's Juice Bar,4.2,"Beverages, Fast Food, Desserts"
+Jai Bhavani Tiffin's & Snacks,3.4,South Indian
+Machili.Com,-,Seafood
+Bhatthi By Phulkaas,-,"North Indian, Kebab"
+Season One Ice Cream,4.3,"Ice Cream, Desserts"
+Cakes Club,3.5,"Bakery, Desserts"
+RK's Kitchen,3.4,South Indian
+Makaan Zaiqa,-,"Hyderabadi, Desserts, Sandwich, Salad"
+Eat N Treat,3.8,"Mithai, Street Food"
+Dr Cakes,3.2,"Bakery, Desserts"
+Shahi Naan,-,North Indian
+Combosthalam By Phulkaas,3.8,"North Indian, Chinese"
+Pachadis By Phulkaas,-,South Indian
+Tasim,3.4,"Chinese, Momos"
